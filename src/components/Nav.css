@@ -1,0 +1,50 @@
+.Nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  
+  border: 1px solid red;
+
+}
+
+.Nav-shortly {
+  font-weight: 700;
+  font-size: 2rem;
+  color: black;
+}
+
+.Nav-left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Nav-right {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Nav a {
+  text-decoration: none;
+  color: grey;
+  transition: all 0.5s ease;
+}
+.Nav a.Navbar-active {
+  color: black;
+}
+
+.Nav-button {
+  font-size: 1rem;
+  color: white !important;
+  border: none;
+  outline: none;
+  background-color: hsl(180, 66%, 49%);
+  padding: 0.7rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.Main {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+
+  border: 1px solid red;
+}
+
+.Main-left {
+  padding: 0 5rem 0 0;
+  
+}
+.Main-left h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+
+.Main-left h4 {
+  color: hsl(0, 0%, 75%);
+}
+
+.Main-left button {
+  font-size: 1rem;
+  color: white !important;
+  border: none;
+  outline: none;
+  background-color: hsl(180, 66%, 49%);
+  padding: 0.7rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.Main-right img {
+  width: 120%;
+  z-index: -2;
+}
