@@ -1,0 +1,13 @@
+.Shortener {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin: auto;
+}
+
+.Shortener-search {
+  width: 70%;
+  height: 60px;
+  background: rgb(41 62 183);
+  border-radius: 6px;
+}

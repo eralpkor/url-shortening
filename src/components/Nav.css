@@ -31,7 +31,7 @@
 
 .Nav a {
   text-decoration: none;
-  color: grey;
+  color: hsl(0, 0%, 75%);
   transition: all 0.5s ease;
 }
 .Nav a.Navbar-active {
@@ -40,7 +40,7 @@
 
 .Nav-button {
   font-size: 1rem;
-  color: white !important;
+  color: white;
   border: none;
   outline: none;
   background-color: hsl(180, 66%, 49%);
@@ -48,3 +48,4 @@
   border-radius: 2rem;
   cursor: pointer;
 }
+
