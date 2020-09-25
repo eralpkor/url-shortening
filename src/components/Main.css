@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem 0 0 2rem;
+  padding: 5rem 0 0 2rem;
 
   border: 1px solid red;
 }
@@ -11,22 +11,33 @@
 .Main-left h1 {
   font-weight: 700;
   font-size: 4.8rem;
+  line-height: 1.1;
 }
 
 .Main-left h4 {
+  font-size: 1.3rem;
   color: hsl(0, 0%, 75%);
+  line-height: 2;
 }
 
 .Main-left button {
-  font-size: 1rem;
+  width: 30%;
+  font-weight: 700;
+  font-size: 1.2rem;
   color: white !important;
   border: none;
   outline: none;
   background-color: hsl(180, 66%, 49%);
-  padding: 0.7rem 2rem;
+  padding: 1.2rem 2.5rem;
   border-radius: 2rem;
   cursor: pointer;
-  margin: 2rem 0 0 2rem;
+  margin: 2rem 0 0 0;
+  transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+.Main-left button:hover {
+  transform: translate(-2px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
 }
 
 .Main-header {
@@ -38,16 +49,17 @@
 }
 
 .Main-paragraph {
+  width: 70%;
   margin-bottom: 20px;
 }
 
 .Main-right {
   overflow: hidden;
-
+  width: 70%;
 }
 
 .Main-right img {
-  width: 120%;
+  width: 130%;
 }
 
 @media only screen and (max-width: 800px) {
