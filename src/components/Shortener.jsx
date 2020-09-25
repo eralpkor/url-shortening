@@ -8,18 +8,33 @@ class Shortener extends React.Component {
         link: ''
       }
   }
-  handleClick = (event) => {
+  handleChange = (event) => {
     this.setState({ url: event.target.value})
   }
+
+  handleSubmit = (event) => {
+    alert('This url was submitted: ' + this.state.url);
+    this.setState({url: ''})
+
+    event.preventDefault();
+  }
+
   render(){
     return(
       <div className='Shortener'>
         <div className="Shortener-search">
-          <form onSubmit={this.handleClick}>
-            <input type='submit' value={this.state.value}></input>
+          <form  onSubmit={this.handleSubmit}>
+            <input 
+              className='Shortener-form'
+              placeholder='Shorten a link here...'
+              type='text' name='name'
+              value={this.state.url || ''}
+              onChange={this.handleChange}
+            />
+            <input  className='Shortener-button' type='submit' value='Shorten it!'></input>
+            {/* <button className='Shortener-button' type='submit' >Shorten it!</button> */}
           </form>
         </div>
-        <h1>Hello</h1>
       </div>
     )
   }
