@@ -6,8 +6,54 @@
 }
 
 .Shortener-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  overflow: hidden;
+  width: 95%;
+  height: 160px;
+  background: #665791;
+  background-image: url('../images/bg-boost-desktop.svg');
+  border-radius: 10px;
+}
+
+.Shortener-search form {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Shortener-form {
   width: 70%;
-  height: 60px;
-  background: rgb(41 62 183);
-  border-radius: 6px;
+  height: 4rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.Shortener-form::placeholder {
+  padding-left: 2.5rem;
+  color: hsl(0, 0%, 75%);
+}
+
+.Shortener-button {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  height: 4.2rem;
+  padding: 0.7rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  /* margin: 2rem 0 0 2rem; */
+  margin-left: 1rem;
+  background: hsl(180, 66%, 49%);
+  color: white;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.3);
+  transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+.Shortener-button:hover {
+  transform: translate(-2px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
 }
