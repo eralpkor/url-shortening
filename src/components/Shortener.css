@@ -30,6 +30,8 @@
   height: 4rem;
   font-size: 1.2rem;
   border-radius: 10px;
+  border: none;
+  outline: none;
 }
 
 .Shortener-form::placeholder {
@@ -38,7 +40,7 @@
 }
 
 .Shortener-button {
-  font-size: 1rem;
+  font-size: 1.2rem;
   border: none;
   outline: none;
   height: 4.2rem;

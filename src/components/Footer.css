@@ -1,0 +1,33 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #232027;
+  padding: 2rem 0;
+}
+
+.Footer-inland {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  background: #232027;
+  color: white;
+  width: 1440px;
+  height: 200px;
+  margin: auto;
+  border: 1px solid red;
+  
+}
+
+.Footer-shortly {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.Footer-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+}
