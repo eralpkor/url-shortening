@@ -5,27 +5,22 @@ import './Footer.css';
 class Footer extends React.Component {
   render() {
     return (
-      <div className='Footer'>
-        <div className="Footer-inland">
+      <div className="Footer">
+        <div className="Footer-inner">
           <div className="Footer-shortly">
             <h1>Shortly</h1>
           </div>
           <div className="Footer-features">
             <h4>Features</h4>
-            <div>
-              <h6>Link Shortening</h6>
-              <h6>Branded Links</h6>
-              <h6>Analytics</h6>
-            </div>
-           
-
+            <h6>Link Shortening</h6>
+            <h6>Branded Links</h6>
+            <h6>Analytics</h6>
           </div>
           <div className="Footer-resources">
             <h4>Resources</h4>
             <h6>Blog</h6>
             <h6>Developers</h6>
             <h6>Support</h6>
-
           </div>
           <div className="Footer-company">
             <h4>Company</h4>
@@ -42,8 +37,10 @@ class Footer extends React.Component {
           </div>
         </div>
       </div>
+      
     )
   }
 }
 
 export default Footer;
+
