@@ -1,0 +1,107 @@
+.Bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  /* text-align: center; */
+  color: white;
+  background: #665791;
+  background-image: url('../images/bg-boost-desktop.svg');
+
+  /* background-repeat: no-repeat; */
+}
+
+.Middle-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 600px;
+  margin: auto;
+  line-height: 2;
+
+  border: 1px solid red;
+}
+
+.Middle-main {
+  padding: 4rem;
+  height: 150px;
+  text-align: center;
+  width: 37%;
+
+  border: 1px solid red;
+}
+
+.Middle-main h1 {
+  font-weight: 700;
+}
+
+.Middle-main h4 {
+  font-weight: 400;
+  color: hsl(0, 0%, 75%);;
+}
+
+.Middle-three-sum {
+  display: flex;
+
+  border: 1px solid red;
+}
+
+.Middle-three-sum-one {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  
+
+  border: 1px solid red;
+}
+.Middle-image-one {
+  width: 70px;
+  height: 70px;
+  line-height: 6;
+  text-align: center;
+  background: black;
+  border-radius: 50%;
+  align-self: flex-start;
+}
+.Middle-three-sum-two {
+  padding: 2rem;
+
+
+  border: 1px solid red;
+}
+
+.Middle-three-sum-three {
+  padding: 2rem;
+
+
+  border: 1px solid red;
+
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+button {
+  /* width: 30%; */
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: white !important;
+  border: none;
+  outline: none;
+  background-color: hsl(180, 66%, 49%);
+  padding: 1rem 2.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin: 2rem 0 0 0;
+  transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+button:hover {
+  transform: translate(-2px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}

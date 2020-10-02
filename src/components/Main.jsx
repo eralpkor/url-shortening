@@ -17,8 +17,7 @@ class Main extends React.Component {
               Build your brand’s recognition and get detailed insights on how your links are performing.
             </h4>
           </div>
-          
-          
+
           <button>Get Started</button>
         </div>
         <div className="Main-right">
